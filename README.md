@@ -1,6 +1,7 @@
 #Quick Python Tutorial  
 ##Overview  
 This is a tutorial to cover some Python basics.  
+
 1. Download and Install  
 2. Syntax  
 3. Built-in Datatypes  
@@ -10,6 +11,7 @@ This is a tutorial to cover some Python basics.
 
 ##Download and Install  
 Python is usually pre-installed on Linux or Mac OSes. If it is not installed or you are using Windows, then you will need to download Python from [python.org](https://www.python.org).  
+
 1. Go to the download page from [python.org](https://www.python.org).  
    Or, go directly to the downloads page [python.org/downloads](https://www.python.org/downloads).  
 
