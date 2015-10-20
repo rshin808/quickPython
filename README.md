@@ -20,20 +20,19 @@ Python is usually pre-installed on Linux or Mac OSes. If it is not installed or 
    Also note that I prefer to install the 32-bit compiler because it supports most of the python libraries.  
 
 3. Run the installer after downloading it.
-
-Additional Steps:  
+ 
 4. Install pip from [here](https://pip.pypa.io/en/latest/installing).  
    Note that Linux users may also need to install the python-dev package.   
 
 5. Install ScyPy Stack  
    Download each package:  
-* numpy  
-* scipy  
-* matplotlib  
-* ipython  
-* pandas  
-* sympy  
-* nose  
+  * numpy  
+  * scipy  
+  * matplotlib  
+  * ipython  
+  * pandas  
+  * sympy  
+  * nose  
 
    Note that this can also be installed as a bundled package.  
    Check [here](www.scipy.org/install.html) for details.  
