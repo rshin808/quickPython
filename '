@@ -21,7 +21,7 @@ Python is usually pre-installed on Linux or Mac OSes. If it is not installed or 
 3. Run the installer after downloading it.
 
 Additional Steps:
-4. Install pip from [here](https://pip.pypa.io/en/latest/installing).
+4. Install pip from [here](https://pip.pypa.io/en/latest/installing)
    Note that Linux users may also need to install the python-dev package.
 
 5. Install ScyPy Stack
