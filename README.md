@@ -27,13 +27,13 @@ Additional Steps:
 
 5. Install ScyPy Stack  
    Download each package:  
-   ..* numpy  
-   ..* scipy  
-   ..* matplotlib  
-   ..* ipython  
-   ..* pandas  
-   ..* sympy  
-   ..* nose  
+* numpy  
+* scipy  
+* matplotlib  
+* ipython  
+* pandas  
+* sympy  
+* nose  
 
    Note that this can also be installed as a bundled package.  
    Check [here](www.scipy.org/install.html) for details.  
