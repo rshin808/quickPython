@@ -1,6 +1,7 @@
 #Quick Python Tutorial
 ##Overview
 This will cover some basics over Python.
+
 1. Download and Install
 2. Syntax
 3. Built-in Datatypes
