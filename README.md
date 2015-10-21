@@ -52,7 +52,7 @@ This section will cover:
 * spacing
 * object format
    
-##Built-in Datatypes  
+##[Built-in Datatypes](https://github.com/rshin808/quickPython/tree/master/Built-in Datatypes)  
 Python supports a variety of datatypes without the need to declare them. 
 This section will cover the standard datatypes:  
 * numbers  
