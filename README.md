@@ -42,7 +42,7 @@ Python is usually pre-installed on Linux or Mac OSes. If it is not installed or 
 
 Note that all python files have the .py extension. In order to run a file ie. example.py, you need to use the command "python example.py" in the console.
 
-##Syntax  
+##[Syntax](https://github.com/rshin808/quickPython/tree/master/Syntax)   
 Python syntax is fairly easy. The main issue occurs with indents and spaces. For this tutorial, tabs are replaced with 4 spaces. Another important note is that Python does not declare datatypes.
 This section will cover:
 * if-else
