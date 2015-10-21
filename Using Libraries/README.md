@@ -5,23 +5,23 @@ Python libraries can be added by using import. Python comes with many pre-instal
 Example Install from Pip:
 Note this is installed from the command-line.
 ```
-pip install 
-```
-
-Example Install from Source:
-Note this is installed from the command-line.
-```
 # After installing the requirements
 pip install psycopg2
 ```
 
-Example Import Library:
+Example Install from Source:
+Note this is installed from the command-line.
 ```
 # After extracting the source
 # Changing to the extracted source directory
 # This build option is not usually used, but it is required for the psycopg2 installer
 python setup.py build
 sudo python setup.py install
+```
+
+Example Import Library:
+```python
+import psycopg2
 ```
 
 ##Checking Library Features
