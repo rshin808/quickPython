@@ -3,7 +3,7 @@
 Python functions are defined using def followed by the function name. The parameters are put in parenthesis following the function name. The function also does not need return argument, and the return does not need to be the same datatype. The main requirement is that the function is defined before it is called.  
 
 Example Function:
-```
+```python
 def function1():
     print "Hello"    
 
@@ -31,7 +31,7 @@ print function3(0, 0)
 Python functions can pass arguments like most languages. The arguments can also be changed in the function if they are mutable. 
 
 Example Function Arguments:
-```
+```python
 test1 = 0
 test2 = [1, 2, 3]
 
@@ -56,7 +56,7 @@ print test2
 Python allows functions to be passed as arguments.  
 
 Example Function Passing:
-```
+```python
 def check(func):
     if func() == 1:
         print "function1"
@@ -83,7 +83,7 @@ check(pass)
 Lambda functions create functions without a name. These are functions that are just needed where they are created and not usually re-used. These are devined with lambda.  
 
 Example Lambda Function:
-```
+```python
 lfunc = lamba x, y: x + y
 print lfunc(2, 1)
 ```

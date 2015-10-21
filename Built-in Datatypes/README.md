@@ -3,7 +3,7 @@
 Numbers could be integers, floats, binary, etc. Python handles these all the same. You can also get the other format representation of the number, but this will be a string type.  
 
 Example Numbers:  
-```
+```python
 # Integer
 i = 10
 
@@ -21,7 +21,7 @@ i = 012
 ```
 
 Example Number Conversions:
-```
+```python
 # Integer to Float, Binary, Hexadecimal, and Octal
 i = 10
 f = float(i)
@@ -50,7 +50,7 @@ Bitwise Operators:
 Strings in Python can be written with " or ' wrapping the string. Having both allows users to include " or ' within the string as well. Strings can also be concatted to other strings with +. Strings can also be split and indexed by. 
 
 Example String:  
-```
+```python
 # Basic string manipulation
 string1 = "Hi you're awesome!"
 string2 = 'Thank you :)'
@@ -82,7 +82,7 @@ The console prints:
 Python can also convert other datatypes into strings. It can also convert classes if the string handler is defined.  
 
 Example String Conversions:
-```
+```python
 i = 10
 string_i = str(i)
 print string_i
@@ -109,7 +109,7 @@ The console prints:
 Lists are the same as arrays. But in Python there are many methods for them, and they can be used to implement other data structures like Queues or Stacks. Lists are defined using [].   
 
 Example Basic List Methods:
-```
+```python
 # Create a List
 list1 = [1, 2, 3]
 print list1
@@ -151,7 +151,7 @@ The console prints:
 Python also allows list manipulation and indexing.  
 
 Example List Manipulation and Indexing:
-```
+```python
 a = [1, 2, 3, 4]
 print a[0]
 print a[2]
@@ -189,7 +189,7 @@ The console prints:
 One more important note is that List assignments point to the List. You need to make a deep copy of the List to not affect the other.
 
 Example List Copy:
-```
+```python
 a = [1, 2, 3]
 b = a
 
@@ -225,7 +225,7 @@ The console prints:
 Tuples in the same as Lists, but the elements in them cannot be changed. These are defined with ().  
 
 Example Tuple:  
-```
+```python
 tuple1 = (1, 2)
 list1 = [1, 2]
 
@@ -257,7 +257,7 @@ The console prints:
 Dictionaries are lists with a key and values. These have a key that can be used as the index for the value they represent. These are defined with {}.    
 
 Example Dictionary:
-```
+```python
 dict1 = {
     "key" : "value",
     "1" : 1,
@@ -271,7 +271,7 @@ print dict1["1"]
 Sets are unordered collections of unique elements. These allow standard math operations on sets like intersection, union, and difference. These are defined with ([]).  
 
 Example Set:
-```
+```python
 # Import the library
 from sets import Set
 

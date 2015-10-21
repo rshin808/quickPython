@@ -3,7 +3,7 @@
 Python classes can be defined with class. Classes have pre-defined methods that are in the base object class. These special methods are in the form \_\_xx\_\_, and they can be overloaded to suit the class. More information can be found [here](https://docs.python.org/2/reference/datamodel.html). Also note that for all methods in a class, the first parameter self is always required (sometimes it can be something else like cls).  
 
 Example Define a Class:  
-```
+```python
 class Animal:
     def __init__(self, name):
         self.name = str(name)
@@ -17,7 +17,7 @@ print animal.name
 Like functions, Class methods can also have default arguments. When using default arguments, make sure that all parameters have a default argument.
 
 Example Class Default Arguments:
-```
+```python
 class Animal:
     def __init__(self, name = ""):
         self.name = str(name)
@@ -30,7 +30,7 @@ print animal.name
 Encapsulation requires keeping class methods and variables hidden within the class. Only accessor methods should be used with the class. These are the private and public variables and methods. Python does not really have private variables and methods. These are implied with \_. You can still access the class variable or method, but in practice you are not supposed to. Classes also have \_\_, which prevents the method from being overridden.  
 
 Example Encapsulation:
-```
+```python
 class Animal:
     def __init__(self, name = ""):
         self._name = str(name)
@@ -46,7 +46,7 @@ print animal.get_name()
 Inheritance allows sub classes from base classes. The sub class has access to all the base class variables and methods. The sub class is a more detailed class of the base class.
 
 Example Inheritance:
-```
+```python
 class Animal:
     def __init__(self, name):
         self._name = str(name)
@@ -54,7 +54,7 @@ class Animal:
     def get_name(self):
         return self._name
 
-def Cat(Animal):
+class Cat(Animal):
     def __init__(self, name = "", sound = "Meow~", action = "Scratch"):
         Animal.__init__(self, name)
         self._sound = str(sound)
@@ -76,7 +76,7 @@ print cat.do_action()
 Polymorphism occurs when a condition occurs in several different forms. Sub classes inherrited from the same base class may have the same method. But, the method may be different depending on the sub class.
 
 Example Polymorphism:
-```
+```python
 class Animal:
     def __init__(self, name):
         self._name = str(name)
@@ -90,7 +90,7 @@ class Animal:
     def do_action(self):
         raise NotImplementedError("Subclass must implement abstract method")
 
-def Cat(Animal):
+class Cat(Animal):
     def __init__(self, name = "", sound = "Meow~", action = "Scratch"):
         Animal.__init__(self, name)
         self._sound = str(sound)
@@ -102,7 +102,7 @@ def Cat(Animal):
     def do_action(self):
         return self._action
 
-def Dog(Animal):
+class Dog(Animal):
     def __init__(self, name = "", sound = "Woof!", action = "Fetch"):
         Animal.__init__(self, name)
         self._sound = str(sound)
@@ -133,7 +133,7 @@ Polymorphism also uses overriding when it overrides the abstract methods of the 
 
 
 Example Overriding:
-```
+```python
 class Animal:
     def __init__(self, name):
         self._name = str(name)
@@ -150,7 +150,7 @@ class Animal:
     def do_action(self):
         raise NotImplementedError("Subclass must implement abstract method")
 
-def Cat(Animal):
+class Cat(Animal):
     def __init__(self, name = "", sound = "Meow~", action = "Scratch"):
         Animal.__init__(self, name)
         self._sound = str(sound)
@@ -165,7 +165,7 @@ def Cat(Animal):
     def do_action(self):
         return self._action
 
-def Dog(Animal):
+class Dog(Animal):
     def __init__(self, name = "", sound = "Woof!", action = "Fetch"):
         Animal.__init__(self, name)
         self._sound = str(sound)
@@ -193,7 +193,7 @@ for animal in animals:
 Classes are very important of Object-Orient Programming. Therefore it is necessary to have a strong understanding of the basic concepts. This section will cover an example showing Encapsulation, Inheritance, and Polymorphism.
 
 Example IEEE UHM Farm:
-```
+```python
 class Animal:
     def __init__(self, name):
         self._name = str(name)
@@ -210,7 +210,7 @@ class Animal:
     def do_action(self):
         raise NotImplementedError("Subclass must implement abstract method")
 
-def Cat(Animal):
+class Cat(Animal):
     def __init__(self, name = "", sound = "Meow~", action = "Scratch"):
         Animal.__init__(self, name)
         self._sound = str(sound)
@@ -225,7 +225,7 @@ def Cat(Animal):
     def do_action(self):
         return self._action
 
-def Dog(Animal):
+class Dog(Animal):
     def __init__(self, name = "", sound = "Woof!", action = "Fetch"):
         Animal.__init__(self, name)
         self._sound = str(sound)
@@ -240,7 +240,7 @@ def Dog(Animal):
     def do_action(self):
         return self._action
 
-IEEE_cat1 = Cat("Michele", sound = "NooooooNoooNooNoooo~", action = "Fire")
+IEEE_cat1 = Cat("Michele", sound = "NooooooNoooNooNoooo~", action = "Put out fires")
 IEEE_cat2 = Cat("Fernan", action = "Rub head")
 IEEE_dog1 = Dog(name = "Jeremy", sound = "Where's my shoes?", action = "Play Wii")
 IEEE_dog2 = Dog("Richie", action = "Sleep") 

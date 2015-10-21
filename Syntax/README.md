@@ -7,7 +7,7 @@ However, the syntax uses : and spaces rather than brackets.
 Also note there are no ;.
  
 Example If-Else Statement:
-```
+```python
 a = 1
 
 if a == 1:
@@ -28,7 +28,7 @@ Python supports the basic while and for loops, but the loops also allow for iter
 The while loop is similar to most languages. However, it can also be used with an else statement.
 
 Example While Loop
-```
+```python
 #Initialize i to be 0
 #Initialize maxLength to be 10
 i = 0
@@ -49,7 +49,7 @@ Notice that i += 1 is used rather than i++. i++ is not valid syntax.
 The for loop is slightly different than most languages. It generally iterates over a list.
 
 Example For Loop:
-```
+```python
 #Similar to the While Loop example without the else
 for i in range(0, 10):
     print i
@@ -66,7 +66,7 @@ These are statements that can be used within any loop.
 This will terminate the loop and continue to the code following the loop.  
 
 Example Break:  
-```
+```python
 array1 = [1, 2, 3]
 for i in array1:
     if i == 2:
@@ -84,7 +84,7 @@ The console prints:
 This will continue to the next iteration of the loop.  
 
 Example Continue:
-```
+```python
 array1 = [1, 2, 3]
 for i in array1:
     if i == 2:
@@ -104,7 +104,7 @@ The console prints:
 This will simply be a passed in the loop.  
 
 Example Pass:
-```
+```python
 array1 = [1, 2, 3]
 for i in array1:
     if i == 2:
@@ -124,7 +124,7 @@ The console prints:
 Python does support global variables. These are simply variables that are defined outside of objects, loops, functions, etc. These can also be defined within them with global. global is required when changing variable inside of functins or objects.  
 
 Example Global Variables:  
-```
+```python
 # This is going to be our global variable
 # You do not need global_ this is just what I am calling it.
 global_var = 1
@@ -170,7 +170,7 @@ Comments in python can be written with # followed by the comment.
 These should be used to explain what is going on with specific lines of code.  
 
 Example Comment:  
-```
+```python
 # This is a Comment.
 ```
 ##Documentation  
@@ -179,7 +179,7 @@ These should be used to tell the user what the class or function does.
 It should also tell what the parameters and returns are if applicable.
 
 Example Doc String 1:  
-```
+```python
 """This is a Doc String
     You can type more here.
 """
@@ -197,7 +197,7 @@ Python defines blocks for functions or classes with spacing.
 It accepts both tabs or spaces for creating these blocks, but it is important to not mix tabs with spaces. A good rule is to never use tabs or to change tabs to spaces. For this tutorial all spacing will be 4.
 
 Example Function:
-```
+```python
 def function:
     print "This is a function"
 ```
@@ -209,7 +209,7 @@ For most of Python, everything can be thought of as an Object.
 The reason I say this is because even datatypes have functions or methods.  
 
 Example Numbers:
-```
+```python
 a = 1
 a.bit_length()
 
@@ -219,8 +219,9 @@ a.bit_length()
 The basic way to access any member or method from an object is to use the . operator. This applies for classes as well.
 
 Example Class:
-```
+```python
 # This is a basic class
-class 
+class A:
+    pass
 
 ```

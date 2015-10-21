@@ -36,7 +36,7 @@ The psycopg2 documentation can be found [here](initd.org/psycopg/docs/).
 This is a good way to learn about how to use the library and its features.
 
 Example Dir:
-```
+```python
 import psycopg2
 
 # This shows what is in module
@@ -49,7 +49,7 @@ BINARY,Binary,DATETIME,DataError,DatabaseError,Date,DateFromTicks,Error,Integrit
 ```
 
 Example Help:
-```
+```python
 import psycopg2
 
 # This gives alot of information
@@ -57,7 +57,7 @@ help(psycopg2)
 ```
 
 Example Doc String:
-```
+```python
 import psycopg2
 # This will not give too much information unless well documented
 psycopg2.__doc__ 
