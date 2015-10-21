@@ -50,7 +50,7 @@ python Helloworld.py
 ```
 
 ##Syntax    
-Python syntax is fairly easy. The main issue occurs with indents and spaces. For this tutorial, tabs are replaced with 4 spaces. Another important note is that Python does not declare datatypes.
+Python syntax is fairly easy. The main issue occurs with indents and spaces. For this tutorial, tabs are replaced with 4 spaces. Another important note is that Python does not declare datatypes.  
 This section will cover:
 * if-else
 * loops
@@ -60,7 +60,7 @@ This section will cover:
 * object format
    
 ##Built-in Datatypes    
-Python supports a variety of datatypes without the need to declare them. 
+Python supports a variety of datatypes without the need to declare them.   
 This section will cover the standard datatypes:  
 * numbers  
 * strings  
@@ -78,7 +78,7 @@ This section will cover:
 * lambda functions  
 
 ##Using Libraries  
-Python has many built-in libraries that already are installed, but you can also download and install additional libraries. All libraries are imported in python the same way.   
+Python has many built-in libraries that already are installed, but you can also download and install additional libraries. All libraries are imported in python the same way.  
 This section will cover:  
 * importing libraries  
 * checking library features  
@@ -95,6 +95,7 @@ This section will cover:
 ##Tips  
 This is a general list of tips.  
 1. PATHS  
-2. DOCS  
-3. OBJECTS  
-4. SANDBOX  
+2. DOCUMENTATION
+3. OBJECTS
+4. SANDBOX
+5. STANDARDS  
