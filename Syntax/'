@@ -1,0 +1,47 @@
+#Syntax  
+##Comments  
+Comments in python can be written with # followed by the comment.  
+These should be used to explain what is going on with specific lines of code.  
+
+Example Comment:  
+```
+# This is a Comment.
+```
+##Documentation  
+Documentation in python can be written with ''' or """ followed by the documentation and closed with ''' or """.
+These should be used to tell the user what the class or function does.
+It should also tell what the parameters and returns are if applicable.
+
+Example Doc String 1:  
+```
+"""This is a Doc String
+    You can type more here.
+"""
+```
+
+Example Doc String 2:  
+```
+'''This is another Doc String.
+   You can type more here.
+'''
+```
+
+##Spacing  
+Python defines blocks for functions or classes with spacing.  
+It accepts both tabs or spaces for creating these blocks, but it is important to not mix tabs with spaces. A good rule is to never use tabs or to change tabs to spaces. For this tutorial all spacing will be 4.
+
+Example Function:
+```
+def function:
+    print "This is a function"
+```
+
+Note that if indentation levels occur from the compiler but the code looks like it has the same level of spaces, then the code probably mixed tabs with spaces.
+
+##Object Format
+For most of Python, everything can be thought of as an Object.  
+The reason I say this is because even datatypes have functions or methods.  
+
+Example Integer:
+```
+``` 

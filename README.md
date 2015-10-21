@@ -42,6 +42,8 @@ Python is usually pre-installed on Linux or Mac OSes. If it is not installed or 
 ##Syntax  
 Python syntax is fairly easy. The main issue occurs with indents and spaces. For this tutorial, tabs are replaced with 4 spaces. Another important note is that Python does not declare datatypes.
 This section will cover:
+* if-else
+* loops
 * comments
 * documentation
 * spacing
