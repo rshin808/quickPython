@@ -78,7 +78,7 @@ This section will cover:
 * lambda functions  
 
 ##Using Libraries  
-Python has many built-in libraries that already are installed, but you can also download and install additional libraries. All libraries are imported in python the same way.  
+Python has many built-in libraries that already are installed, but you can also download and install additional libraries. All libraries are imported in python the same way.   
 This section will cover:  
 * importing libraries  
 * checking library features  
