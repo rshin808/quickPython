@@ -24,12 +24,16 @@ Example Number Conversions:
 ```
 # Integer to Float, Binary, Hexadecimal, and Octal
 i = 10
-i = float(i)
-i = bin(i)
-i = hex(i)
-i = oct(i)
+f = float(i)
+b = bin(i)
+h = hex(i)
+o = oct(i)
 
 print type(i)
+print type(f)
+print type(b)
+print type(h)
+print type(o)
 ```
 
 Note that you can also apply bitwise operators to numbers.  
@@ -71,7 +75,7 @@ The console prints:
 >>Thank you :)
 >>Hi you're awesome! Thank you :)
 >>!
->>Hi you're awesome
+>>["Hi you're awesome", 'Thank you :)']
 >>Hi you're awesome!
 ```
 
@@ -163,21 +167,22 @@ print b
 
 print len(b)
 print a == b
-
+print a == b[1:]
 ```
 
 The console prints:
 ```
 >>1
 >>3
->>-4
->>-3
->>[1, 2, 3, 4]
+>>4
+>>3
+>>[4, 3, 2, 1]
 >>[2, 3, 4]
->>[1, 2, 3]
->>[2, 3]
->>[1, 2, 3, 4]
+>>[1, 2]
+>>[2]
+>>[0, 1, 2, 3, 4]
 >>5
+>>False
 >>True
 ```
 
@@ -287,8 +292,10 @@ print algorithms
 # Intersection
 ee_algorithms = ee & algorithms
 ee_hardware = ee & ep
+print ee_algorithms
+print ee_hardware
 
 # Difference
 ee_nonhardware = ee - ee_hardware
-
+print ee_nonhardware
 ```
