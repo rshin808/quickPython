@@ -40,7 +40,7 @@ while i < maxLength:
     i += 1
 #Else print i is greater than maxLength
 else:
-    print str(i) + " is greater than " + str(maxLength)
+    print str(i) + " is greater than or equal to" + str(maxLength)
 ```
 
 Notice that i += 1 is used rather than i++. i++ is not valid syntax.  
@@ -74,7 +74,7 @@ for i in array1:
     print i
 print "end"
 ```
-This results in:
+The console prints:
 ```
 >>1
 >>end
@@ -93,7 +93,7 @@ for i in array1:
 print "end"
 ```
 
-This results in:
+The console prints:
 ```
 >>1
 >>3
@@ -113,7 +113,7 @@ for i in array1:
 print "end"
 ```
 
-This results in:
+The console prints:
 ```
 >>1
 >>2
@@ -161,8 +161,8 @@ The console prints:
 ```
 >>global_var = 2
 >>global_var = 2
->>check_var = 3
->>global_var = 4
+>>check_var = 1
+>>global_var = 2
 ```
 
 ##Comments  
