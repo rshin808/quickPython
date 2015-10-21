@@ -95,7 +95,7 @@ This section will cover:
 ##Tips  
 This is a general list of tips.  
 1. PATHS  
-2. DOCUMENTATION  
-3. OBJECTS  
-4. SANDBOX  
-5. STANDARDS    
+2. HELP RESOURCES    
+3. INTERPRETER  
+4. STANDARDS    
+5. IDE
