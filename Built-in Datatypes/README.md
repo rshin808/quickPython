@@ -47,7 +47,7 @@ Bitwise Operators:
 * ^  - exclusive or
 
 ##Strings
-Strings in Python can be written with " or ' wrapping the string. Having both allows users to include " or ' within the string as well. Strings can also be concatted to other strings with +. Strings can also be split and indexed by. 
+Strings in Python can be written with " or ' wrapping the string. Having both allows users to include " or ' within the string as well. Strings can also be concatenated to other strings with +. Strings can also be split and indexed by. 
 
 Example String:  
 ```python
