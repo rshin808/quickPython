@@ -40,10 +40,10 @@ Python is usually pre-installed on Linux or Mac OSes. If it is not installed or 
    A recommended option is [Anaconda](https://www.continuum.io/downloads).  
    Also note that if you decide to download a bundled package, then you will also install their python compiler. Because of this, you can choose to skip steps 1 through 4.  
 
-##Running Python Code
-All python files have the .py extension. In order to run a file ie. example.py, you need to use the command "python example.py" in the console.
+##Running Python Code  
+All python files have the .py extension. In order to run a file ie. example.py, you need to use the command "python example.py" in the console.  
 
-Example Helloworld.py:
+Example Helloworld.py:  
 Note this needs to be run from the command-line.
 ```
 python Helloworld.py
@@ -90,7 +90,7 @@ This section will cover:
 * encapsulation  
 * inheritance  
 * polymorphism  
-* overloading  
+* overriding  
 
 ##Tips  
 This is a general list of tips.  
