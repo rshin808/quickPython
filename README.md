@@ -1,6 +1,7 @@
 #Quick Python Tutorial  
 ##Overview  
 This is a tutorial to cover some Python basics.  
+For more detailed information, read the documentation from [here](https://docs.python.org/2/) 
 
 1. Download and Install  
 2. Syntax  
