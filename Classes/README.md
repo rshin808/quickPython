@@ -27,7 +27,7 @@ print animal.name
 ```
 
 ##Encapsulation  
-Encapsulation requires keeping class methods and variables hidden within the class. Only accessor methods should be used with the class. These are the private and public variables and methods. Python does not really have private variables and methods. These are implied with \_. You can still access the class variable or method, but in practice you are not supposed to. Classes also have \_\_, which prevents the method from being overridden.  
+Encapsulation requires keeping class methods and variables hidden within the class. These are the private and public variables and methods. Only accessor methods should be used with the class, but Python does not really have private variables and methods. These are implied with \_. You can still access the class variable or method, but in practice you are not supposed to. Classes also have \_\_, which prevents the method from being overridden.  
 
 Example Encapsulation:
 ```python
@@ -43,7 +43,7 @@ print animal.get_name()
 ``` 
 
 ##Inheritance  
-Inheritance allows sub classes from base classes. The sub class has access to all the base class variables and methods. The sub class is a more detailed class of the base class.
+Inheritance allows sub classes from base classes. The sub class has access to all the base class variables and methods. The sub class is a more defined or directed class of the base class.
 
 Example Inheritance:
 ```python
@@ -190,7 +190,7 @@ for animal in animals:
 ```
 
 ##Class Summary
-Classes are very important of Object-Orient Programming. Therefore it is necessary to have a strong understanding of the basic concepts. This section will cover an example showing Encapsulation, Inheritance, and Polymorphism.
+Classes are very important in Object-Orient Programming. Therefore it is necessary to have a strong understanding of the basic concepts. This section will cover an example showing Encapsulation, Inheritance, and Polymorphism.
 
 Example IEEE UHM Farm:
 ```python

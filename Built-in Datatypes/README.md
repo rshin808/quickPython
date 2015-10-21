@@ -222,7 +222,7 @@ The console prints:
 ```
 
 ##Tuples
-Tuples in the same as Lists, but the elements in them cannot be changed. These are defined with ().  
+Tuples are the same as Lists, but the elements in them cannot be changed. These are defined with ().  
 
 Example Tuple:  
 ```python
@@ -254,7 +254,7 @@ The console prints:
 ```
 
 ##Dictionaries
-Dictionaries are lists with a key and values. These have a key that can be used as the index for the value they represent. These are defined with {}.    
+Dictionaries are lists with a key and values. They have a key that can be used as the index for the value they represent. These are defined with {}.    
 
 Example Dictionary:
 ```python
@@ -268,7 +268,7 @@ print dict1["1"]
 ```
 
 ##Sets
-Sets are unordered collections of unique elements. These allow standard math operations on sets like intersection, union, and difference. These are defined with ([]).  
+Sets are unordered collections of unique elements. They allow standard math operations on sets like intersection, union, and difference. These are defined with ([]).  
 
 Example Set:
 ```python
