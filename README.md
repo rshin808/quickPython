@@ -40,7 +40,7 @@ Python is usually pre-installed on Linux or Mac OSes. If it is not installed or 
    A recommended option is [Anaconda](https://www.continuum.io/downloads).  
    Also note that if you decide to download a bundled package, then you will also install their python compiler. Because of this, you can choose to skip steps 1 through 4.  
 
-##Running Python Code  
+##Running Python Code   
 All python files have the .py extension. In order to run a file ie. example.py, you need to use the command "python example.py" in the console.  
 
 Example Helloworld.py:  
@@ -49,7 +49,7 @@ Note this needs to be run from the command-line.
 python Helloworld.py
 ```
 
-##Syntax    
+##[Syntax](https://github.com/rshin808/quickPython/tree/master/Syntax)  
 Python syntax is fairly easy. The main issue occurs with indents and spaces. For this tutorial, tabs are replaced with 4 spaces. Another important note is that Python does not declare datatypes.  
 This section will cover:
 * if-else
@@ -59,7 +59,7 @@ This section will cover:
 * spacing
 * object format
    
-##Built-in Datatypes    
+##[Built-in Datatypes](https://github.com/rshin808/quickPython/tree/master/Built-in%20Datatypes)  
 Python supports a variety of datatypes without the need to declare them.   
 This section will cover the standard datatypes:  
 * numbers  
@@ -69,7 +69,7 @@ This section will cover the standard datatypes:
 * dictionary  
 * sets  
 
-##Functions  
+##[Functions](https://github.com/rshin808/quickPython/tree/master/Functions)  
 Python functions are simple to implement. However it is important to note that the function must be defined before the function is called in the code.  
 This section will cover:  
 * defining a function  
@@ -77,13 +77,13 @@ This section will cover:
 * passing a function as an argument  
 * lambda functions  
 
-##Using Libraries  
+##[Using Libraries](https://github.com/rshin808/quickPython/tree/master/Using%20Libraries)  
 Python has many built-in libraries that already are installed, but you can also download and install additional libraries. All libraries are imported in python the same way.  
 This section will cover:  
 * importing libraries  
 * checking library features  
 
-##Classes  
+##[Classes](https://github.com/rshin808/quickPython/tree/master/Classes)  
 Python classes are simple and easy to create. One interesting note is that python classes do not necessarily have a private feature (the privacy of a class is implied).  
 This section will cover:  
 * defining a class  
@@ -92,7 +92,7 @@ This section will cover:
 * polymorphism  
 * overriding  
 
-##Tips  
+##[Tips](https://github.com/rshin808/quickPython/tree/master/Tips)  
 This is a general list of tips.  
 1. PATHS  
 2. HELP RESOURCES    
